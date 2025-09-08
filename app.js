@@ -15,9 +15,7 @@ app.use(cookieParser());
 // CORS configuration to allow a specific origin
 const corsOptions = {
   origin: [
-    "https://itec-srv-report.vercel.app",
-    "https://itec-srv-report.vercel.app/",
-    "http://localhost:5173"
+    "https://react-front-end-tdc7.vercel.app/"
   ], // Your frontend origin
 };
 app.use(cors(corsOptions));
