@@ -15,7 +15,8 @@ app.use(cookieParser());
 // CORS configuration to allow a specific origin
 const corsOptions = {
   origin: [
-    "https://react-front-end-tdc7.vercel.app"
+    "https://react-front-end-tdc7.vercel.app",
+    "https://react-front-end-tdc7.vercel.app/"
   ], // Your frontend origin
 };
 app.use(cors(corsOptions));
